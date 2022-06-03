@@ -11,7 +11,7 @@ func TestFind(t *testing.T) {
 	slice := []string{"a", "b", "c", "d"}
 	val := "c"
 	index, found := Find(slice, val)
-	assert.Equal(t, 2, index)
+	assert.Equal(t, 3, index)
 	assert.True(t, found)
 
 	sliceNotFound := []string{"a", "b", "c", "d"}
